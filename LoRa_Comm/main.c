@@ -123,6 +123,14 @@
 //#include "board.h"
 #include <stdint.h>
 
+/*
+SPISIMO (Slave In, Master Out), GPIO-16, pin-67 of the control Card
+SPISOMI (Slave Out, Master In), GPIO-17, pin-69 of the control Card
+SPICLK  (Clock), GPIO-18, pin-71 of the control Card
+SPISTEA (Slave Transmit Enable), GPIO-19, pin-73 of the control Card
+GPIO-24, pin-75 of the control Card, attached to the reset pin of the SX1276
+*/
+
 //
 // Function Prototypes
 //
